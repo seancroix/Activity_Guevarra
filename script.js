@@ -43,5 +43,5 @@ function checkWin() {
 
 // Function to reset the game
 function resetBoard() {
-    board = ["", "", "", ""]
+    board = ["", "", "", "", "", "", "", "", ""];
 }
