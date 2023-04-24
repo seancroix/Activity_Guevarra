@@ -33,3 +33,4 @@ function checkWin() {
             alert("Player " + board[a] + " wins!");  
         }
     }
+}
