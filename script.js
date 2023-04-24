@@ -30,18 +30,6 @@ function checkWin() {
         const [a, b, c] = combo;
         if (board[a] !== "" && board[a] === board[b] && board[a] === board[c]) {
             gameover = true;
-            alert("Player " + board[a] + " wins!");
-            break;
+            alert("Player " + board[a] + " wins!");  
         }
     }
-
-    if (!board.includes("") && !gameover) {
-        gameover = true;
-        alert("It's a draw!");
-    }
-}
-
-// Function to reset the game
-function resetBoard() {
-    board = ["", "", "", "", "", "", "", "", ""];
-}
